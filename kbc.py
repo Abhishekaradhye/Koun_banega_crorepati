@@ -19,7 +19,7 @@ for i in range (len(questions)):
             money = 120000
 
     else:
-        print("You have given wrong answer !!!")
+        print("You have given wrong answer, you were nice company !!!")
         break
 if i == 1:
     print("\nThank you for playing with us...\n_____Grand Congratulations !!!_____\nKya kariyega itni DHANRASHI ka ! ")
