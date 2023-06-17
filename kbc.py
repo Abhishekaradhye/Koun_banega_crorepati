@@ -9,7 +9,7 @@ for i in range (len(questions)):
     print(f"Question for Rs.{levels[i]}\n{question[0]}")
     print(f"1. {question[1]}     2. {question[2]}")
     print(f"3. {question[3]}     4. {question[4]}")
-    print(f"5. {question[5]})
+    
     reply = int(input("Enter your option (1 - 4) : "))
     if reply == question[-1]:
         print(f"Your answer is correct !! Now you have won Rs.{levels[i]}\n")
@@ -25,5 +25,5 @@ for i in range (len(questions)):
     else:
         print("You have given wrong answer, you were nice company !!!")
         break
-if i == 1:
+if levels[i] == levels[-1]:
     print("\nThank you for playing with us...\n_____Grand Congratulations !!!_____\nKya kariyega itni DHANRASHI ka ! ")
